@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'SDK2305-ng10';
+  title = 'SDK2305';
+  images = [944, 1011, 984].map((n) => `https://picsum.photos/id/${n}/900/500`);
 }
